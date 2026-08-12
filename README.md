@@ -2,15 +2,6 @@
 
 
 ---
-<br>
-<p align="center">
-  <img src="https://img.shields.io/badge/GitHub: prtbws-black?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/github/followers/prtbws?style=flat-square&logo=github&logoColor=white&label=Followers:&labelColor=black&color=black" alt="Followers">
-  <img src="https://img.shields.io/github/stars/prtbws?style=flat-square&logo=github&logoColor=white&label=Stars:&labelColor=black&color=black" alt="Stars">
-  <img src="https://img.shields.io/github/last-commit/prtbws/prtbws?style=flat-square&logo=github&logoColor=white&label=Last%20Commit:&labelColor=black&color=black" alt="Last Commit">
-</p>
-
----
 
 <br>
 
