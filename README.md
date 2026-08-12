@@ -1,222 +1,132 @@
-<h1 align="center">Hi 👋, I'm Partha Biswas</h1>
-<h3 align="center">🚀 AI & Data Science Student | Builder | Tech Enthusiast</h3>
+  <h3 id="hi-there--im-Partha Biswas">Hi there 👋, I’m <a href="https://github.com/prtbws">Partha Biswas !!</a> 👨‍💻</h3>
 
+
+---
+<br>
 <p align="center">
-  <a href="https://github.com/prtbws">
-    <img src="https://img.shields.io/github/followers/prtbws?label=Followers&style=social" />
-  </a>
-  <a href="https://github.com/prtbws">
-    <img src="https://img.shields.io/github/stars/prtbws?affiliations=OWNER%2CCOLLABORATOR&style=social" />
-  </a>
+  <img src="https://img.shields.io/badge/GitHub: prtbws-black?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/github/followers/prtbws?style=flat-square&logo=github&logoColor=white&label=Followers:&labelColor=black&color=black" alt="Followers">
+  <img src="https://img.shields.io/github/stars/prtbws?style=flat-square&logo=github&logoColor=white&label=Stars:&labelColor=black&color=black" alt="Stars">
+  <img src="https://img.shields.io/github/last-commit/prtbws/prtbws?style=flat-square&logo=github&logoColor=white&label=Last%20Commit:&labelColor=black&color=black" alt="Last Commit">
 </p>
 
 ---
 
-## 🧑‍💻 About Me
-- 🎓 B.Tech in **Artificial Intelligence & Data Science**
-- 🏫 **IIIT Kurnool**
-- 🧠 Focused on **AI, IoT, Automation & System Design**
-- 🛠️ Building real-world products and scalable systems
+<br>
+
+<p>
+A passionate AI & Data Science student 🚀 from India. Always working on some project or learning something new!
+<br>
+Stacks I have worked with : C++, Python, Pandas, NumPy, PyTorch, Scikit-learn, JavaScript, Node.js.
+<br>  
+Things I am currently experimenting with : Machine Learning, Data Analysis, Algo Trading, ...
+<br>
+Want to become a Data Scientist 💸 and an Open Source Contributor ❤️.
+</p>
+  <img align="right" alt="GIF" width="250" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dXo3emMwZ2t3aGEwYWNnMDc0bThqZjEwZDBlMjYzcXB5N2gxeTBsayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YtCAXWS94FZbWiKmKH/giphy.gif">
+<h3 id="-quick-facts">✨ Quick Facts</h3>
+<ul>
+<li>👨🏽‍💻 I’m currently pursuing B.Tech in AI & Data Science.</li>
+<li>🌱 I’m currently learning Machine Learning and Data Science.</li>
+</ul>
+<!--- 🤔 I’m looking for help for my future AI/ML projects.-->
+<ul>
+<li>💬 Ask me about anything related to C++, Python, DSA, Data Science, Machine Learning.(After googling it 😜😌)</li>
+</ul>
+<!--- ⚡️ Fun-Fact: I can spend hours debugging a single line of code 🙃. -->
+<ul>
+<li>🎿 Hobbies other than coding : Competitive Programming, Reading, Playing Chess, Exploring new technologies.</li>
+<li>📫 How to reach me: <a href="mailto:prtbws@zohomail.in">prtbws@zohomail.in</a></li>
+<li>📝 <a href="https://drive.google.com/file/d/1GCMpkMDEj4LP10k1rLeFq_EW4uqOmMAd/view?usp=drive_link">Resume</a></li>
+</ul>
+
+<h3>🎃Languages</h3>
+
+<img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c" alt="C">
+<img src="https://img.shields.io/badge/-C%2B%2B-black?style=flat-square&logo=cplusplus" alt="C++">
+<img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk" alt="Java">
+<img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" alt="Python">
+<img src="https://img.shields.io/badge/-PyPy-black?style=flat-square&logo=pypy" alt="PyPy">
+<img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5" alt="HTML5">
+<img src="https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3" alt="CSS3">
+<img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" alt="JavaScript">
+
+<h3>🤖Data Science & AI</h3>
+
+<img src="https://img.shields.io/badge/-Pandas-black?style=flat-square&logo=pandas" alt="Pandas">
+<img src="https://img.shields.io/badge/-NumPy-black?style=flat-square&logo=numpy" alt="NumPy">
+<img src="https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=pytorch" alt="PyTorch">
+<img src="https://img.shields.io/badge/-Matplotlib-black?style=flat-square&logo=matplotlib" alt="Matplotlib">
+<img src="https://img.shields.io/badge/-Scikit--learn-black?style=flat-square&logo=scikit-learn" alt="Scikit-learn">
+<img src="https://img.shields.io/badge/-Hugging%20Face-black?style=flat-square&logo=huggingface" alt="Hugging Face">
+<img src="https://img.shields.io/badge/-Plotly-black?style=flat-square&logo=plotly" alt="Plotly">
+<img src="https://img.shields.io/badge/-Jupyter-black?style=flat-square&logo=jupyter" alt="Jupyter">
+
+<h3>🛠️Development & Tools</h3>
+
+<img src="https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js" alt="Node.js">
+<img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" alt="Git">
+<img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" alt="GitHub">
+<img src="https://img.shields.io/badge/-GitLab-black?style=flat-square&logo=gitlab" alt="GitLab">
+<img src="https://img.shields.io/badge/-Vercel-black?style=flat-square&logo=vercel" alt="Vercel">
+<img src="https://img.shields.io/badge/-Ubuntu-black?style=flat-square&logo=ubuntu" alt="Ubuntu">
+
+<h3 id="-next-steps">👣 Next Steps</h3>
+<p><em>Since you don’t want to leave my profile just yet! Here are some things you can do :</em></p>
+<p>❤️ Offer work : Send the offer on <a href="https://www.linkedin.com/in/prtbws/"><img src="https://img.shields.io/badge/-Partha Biswas-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/prtbws/" alt="Linkedin Badge"></a>
+or <a href="mailto:prtbws@zohomail.in"><img src="https://img.shields.io/badge/-prtbws@zohomail.in-c14438?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=mailto:prtbws@zohomail.in" alt="Gmail Badge"></a></p>
+<!--❤️ Follow : You can follow me here on [![GitHub followers](https://img.shields.io/github/followers/prtbws?label=Follow&style=social)](https://github.com/prtbws/?tab=follow) and [![Twitter Badge](https://img.shields.io/badge/-@Partha Biswas_atg-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Partha Biswas_atg)](https://twitter.com/Partha Biswas_atg)
+if you are on a similar path as mine.
+-->
 
 ---
-
-## Connect & Compete
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="220">
-
-### GitHub
-
-<img src="https://skillicons.dev/icons?i=github" width="50"/>
-
-**Open Source & Projects**
-
-[Profile →](https://github.com/prtbws)
-
-</td>
-
-<td align="center" width="220">
-
-### LinkedIn
-
-<img src="https://skillicons.dev/icons?i=linkedin" width="50"/>
-
-**Professional Network**
-
-[Connect →](https://linkedin.com/in/prtbws)
-
-</td>
-
-<td align="center" width="220">
-
-### Codeforces
-
-<img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="50"/>
-
-**Competitive Programming**
-
-[Profile →](https://codeforces.com/profile/prtbws)
-
-</td>
-
-</tr>
-
-<tr>
-
 <td align="center">
 
-### LeetCode
+<b>🏆 Other Profiles 🏆</b>
 
-<img src="https://cdn.simpleicons.org/leetcode/FFA116" width="50"/>
-
-**DSA Practice**
-
-[Profile →](https://leetcode.com/u/prtbws)
-
-</td>
-
-<td align="center">
-
-### CodeChef
-
-<img src="https://cdn.simpleicons.org/codechef/ffffff" width="50"/>
-
-**Contest Platform**
-
-[Profile →](https://www.codechef.com/users/prtbws)
+<a href="https://leetcode.com/u/prtbws/"><img height="18" alt="LeetCode" src="https://img.shields.io/badge/-LeetCode-black?style=flat-square&logo=leetcode"></a>
+&nbsp;
+<a href="https://codeforces.com/profile/prtbws/"><img height="18" alt="Codeforces" src="https://img.shields.io/badge/-Codeforces-black?style=flat-square&logo=codeforces"></a>
+&nbsp;
+<a href="https://www.kaggle.com/prtbws"><img height="18" alt="Kaggle" src="https://img.shields.io/badge/-Kaggle-black?style=flat-square&logo=kaggle"></a>
+&nbsp;
+<a href="https://huggingface.co/prtbws"><img height="18" alt="HuggingFace" src="https://img.shields.io/badge/-HuggingFace-black?style=flat-square&logo=huggingface"></a>
 
 </td>
-
-<td align="center">
-
-### Email
-
-<img src="https://cdn.simpleicons.org/gmail/EA4335" width="50"/>
-
-**Get In Touch**
-
-prtbws@zohomail.in
-
-</td>
-
 </tr>
 </table>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-  
-
 ---
-
-## ⚡ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,pytorch,git,github,vscode,linux" />
-</p>
-
----
-
-## GitHub Analytics
-
 <div align="center">
 
-<table border="0px">
-<img width="500em" src="https://github-readme-streak-stats.herokuapp.com?user=prtbws&theme=transparent&hide_border=false&border_radius=20&stroke=0A84FF&ring=FF1744&fire=FF1744&currStreakLabel=0A84FF"/>
-<br>
+<table>
 <tr>
+<td align="center">
 
-<td>
+<b>💌Connect with me💌</b>
 
-<a href="https://github.com/prtbws">
-<img widht="600em" src="https://ghstats.dev/api/card?username=prtbws&theme=transparent&show_icons=true&hide_border=false&border_radius=20&title_color=0A84FF&icon_color=FF1744&text=FFFFFF&border_color=0A84FF" />
-</a>
+<a href="https://www.linkedin.com/in/prtbws/"><img height="18" alt="LeetCode" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin"></a>
+&nbsp;
+<a href="mailto:prtbws@zohomail.in"><img height="18" alt="Email" src="https://img.shields.io/badge/-Email-black?style=flat-square&logo=gmail"></a>
+&nbsp;
+<a href="https://t.me/prtbws"><img height="18" alt="Telegram" src="https://img.shields.io/badge/-Telegram-black?style=flat-square&logo=telegram"></a>
+&nbsp;
+<a href="https://www.instagram.com/prt.bws/"><img height="18" alt="Instagram" src="https://img.shields.io/badge/-Instagram-black?style=flat-square&logo=instagram"></a>
 
 </td>
-
 </tr>
 </table>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Developer Metrics
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=prtbws&theme=tokyo-night&hide_border=true" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Competitive Programming
-
-<div align="center">
-
-<img height="250em" src="https://leetcard.jacoblin.cool/prtbws?theme=dark&font=JetBrains+Mono&ext=contest"/>
-
-<img height="250em" src="https://codeforces-readme-stats.vercel.app/api/card?username=prtbws&theme=github_dark"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-
-## 🤖 Domains
-- Artificial Intelligence  
-- Data Science
-- Web Devlopment
-- App Development
-- IoT Systems  
-- Automation   
-
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=prtbws&theme=tokyonight" />
-</p>
-
----
-
-## 🚀 Projects
-- 🔌 **Smart Switchboard System** – IoT-based automation with redundancy  
-- 🏦 **Banking System** - With C 
-
----
-
-## 📈 Currently Working On
-- DSA / CP  
-- Advance Machine Learning
-
----
-
-## 🎯 Goals
-- Crack top tech roles (AI / Data Science / Quant)  
-- Build scalable startup products  
-- Contribute to impactful open-source  
-
----
-
-## Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/prtbws/prtbws/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
----
-
-## 💡 Quote
-> "Build things that actually solve problems."
-
----
-
-⭐️ From [prtbws](https://github.com/prtbws)
+<p>Credit: <a href="https://github.com/prtbws">prtbws</a></p>
+<p>Last Edited on: 19/11/2020</p> 
