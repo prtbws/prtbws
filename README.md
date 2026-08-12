@@ -41,35 +41,38 @@ Want to become a Data Scientist 💸 and an Open Source Contributor ❤️.
 </ul>
 
 <h3>🎃Languages</h3>
-
-<img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c" alt="C">
-<img src="https://img.shields.io/badge/-C%2B%2B-black?style=flat-square&logo=cplusplus" alt="C++">
-<img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk" alt="Java">
-<img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" alt="Python">
-<img src="https://img.shields.io/badge/-PyPy-black?style=flat-square&logo=pypy" alt="PyPy">
-<img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5" alt="HTML5">
-<img src="https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3" alt="CSS3">
-<img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" alt="JavaScript">
+<p>
+  <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c" alt="C">
+  <img src="https://img.shields.io/badge/-C%2B%2B-black?style=flat-square&logo=cplusplus" alt="C++">
+  <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk" alt="Java">
+  <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/-PyPy-black?style=flat-square&logo=pypy" alt="PyPy">
+  <img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5" alt="HTML5">
+  <img src="https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3" alt="CSS3">
+  <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" alt="JavaScript">
+</p>
 
 <h3>🤖Data Science & AI</h3>
-
-<img src="https://img.shields.io/badge/-Pandas-black?style=flat-square&logo=pandas" alt="Pandas">
-<img src="https://img.shields.io/badge/-NumPy-black?style=flat-square&logo=numpy" alt="NumPy">
-<img src="https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=pytorch" alt="PyTorch">
-<img src="https://img.shields.io/badge/-Matplotlib-black?style=flat-square&logo=matplotlib" alt="Matplotlib">
-<img src="https://img.shields.io/badge/-Scikit--learn-black?style=flat-square&logo=scikit-learn" alt="Scikit-learn">
-<img src="https://img.shields.io/badge/-Hugging%20Face-black?style=flat-square&logo=huggingface" alt="Hugging Face">
-<img src="https://img.shields.io/badge/-Plotly-black?style=flat-square&logo=plotly" alt="Plotly">
-<img src="https://img.shields.io/badge/-Jupyter-black?style=flat-square&logo=jupyter" alt="Jupyter">
+<p>
+  <img src="https://img.shields.io/badge/-Pandas-black?style=flat-square&logo=pandas" alt="Pandas">
+  <img src="https://img.shields.io/badge/-NumPy-black?style=flat-square&logo=numpy" alt="NumPy">
+  <img src="https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=pytorch" alt="PyTorch">
+  <img src="https://img.shields.io/badge/-Matplotlib-black?style=flat-square&logo=matplotlib" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/-Scikit--learn-black?style=flat-square&logo=scikit-learn" alt="Scikit-learn">
+  <img src="https://img.shields.io/badge/-Hugging%20Face-black?style=flat-square&logo=huggingface" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/-Plotly-black?style=flat-square&logo=plotly" alt="Plotly">
+  <img src="https://img.shields.io/badge/-Jupyter-black?style=flat-square&logo=jupyter" alt="Jupyter">
+</p>
 
 <h3>🛠️Development & Tools</h3>
-
-<img src="https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js" alt="Node.js">
-<img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" alt="Git">
-<img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" alt="GitHub">
-<img src="https://img.shields.io/badge/-GitLab-black?style=flat-square&logo=gitlab" alt="GitLab">
-<img src="https://img.shields.io/badge/-Vercel-black?style=flat-square&logo=vercel" alt="Vercel">
-<img src="https://img.shields.io/badge/-Ubuntu-black?style=flat-square&logo=ubuntu" alt="Ubuntu">
+<p>
+  <img src="https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js" alt="Node.js">
+  <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" alt="Git">
+  <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" alt="GitHub">
+  <img src="https://img.shields.io/badge/-GitLab-black?style=flat-square&logo=gitlab" alt="GitLab">
+  <img src="https://img.shields.io/badge/-Vercel-black?style=flat-square&logo=vercel" alt="Vercel">
+  <img src="https://img.shields.io/badge/-Ubuntu-black?style=flat-square&logo=ubuntu" alt="Ubuntu">
+</p>
 
 <h3 id="-next-steps">👣 Next Steps</h3>
 <p><em>Since you don’t want to leave my profile just yet! Here are some things you can do :</em></p>
@@ -129,4 +132,4 @@ if you are on a similar path as mine.
 ---
 
 <p>Credit: <a href="https://github.com/prtbws">prtbws</a></p>
-<p>Last Edited on: 19/11/2020</p> 
+<p>Last Edited on: 13/08/2026</p> 
