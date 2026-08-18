@@ -121,8 +121,3 @@ if you are on a similar path as mine.
 </table>
 
 </div>
-
----
-
-<p>Credit: <a href="https://github.com/prtbws">prtbws</a></p>
-<p>Last Edited on: 13/08/2026</p> 
