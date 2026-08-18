@@ -28,7 +28,7 @@ Want to become a Data Scientist 💸 and an Open Source Contributor ❤️.
 <ul>
 <li>🎿 Hobbies other than coding : Competitive Programming, Reading, Playing Chess, Exploring new technologies.</li>
 <li>📫 How to reach me: <a href="mailto:prtbws@zohomail.in">prtbws@zohomail.in</a></li>
-<li>📝 <a href="https://drive.google.com/file/d/1GCMpkMDEj4LP10k1rLeFq_EW4uqOmMAd/view?usp=drive_link">Resume</a></li>
+<li>📝 <a href="https://github.com/prtbws/prtbws/blob/main/resume.pdf">Resume</a></li>
 </ul>
 
 <h3>🎃Languages</h3>
