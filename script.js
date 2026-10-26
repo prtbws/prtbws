@@ -26,7 +26,6 @@ const portfolioData = {
     "Competitive Programmer (700+ Solved)",
     "Quantitative Strategy Builder",
     "C++ & Low-Level Systems Dev",
-    "ESP32 Embedded IoT Engineer"
   ],
 
   // 3. Verified Developer & Contest Profiles
