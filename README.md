@@ -1,257 +1,123 @@
-# ⚡ Partha Biswas — Personal Portfolio Website
+  <h3 id="hi-there--im-Partha Biswas">Hi there 👋, I’m <a href="https://github.com/prtbws">Partha Biswas !!</a> 👨‍💻</h3>
 
-A modern, highly animated, single-page personal portfolio for **Partha Biswas**, Artificial Intelligence and Data Science undergraduate at **IIITDM Kurnool**.
-
-Built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
 ---
 
-## 🌟 Highlights & Architecture
+<br>
 
-- **Single Route Architecture**: One continuous, fluid scrolling experience across `/`.
-- **100% Verified Profile Data**: Grounded in authentic projects, Codeforces metrics, GitHub repositories, and hackathon participation.
-- **Aesthetic**: Deep space/near-black theme (`#07070a`), electric indigo (`#6366f1`) and cyber cyan (`#06b6d4`) accents, subtle ambient glows, fine geometric grid, and restrained glassmorphism.
-- **Centralized Content Configuration**: Every single piece of content (bio, headline, skills, projects, achievements, journey, contact) is maintained in `src/data/portfolio.ts`. You never need to touch React components or animation code to update your site!
-- **Interactive Visual Customizer**: Click the **Customize** button in the header (or open via mobile menu) to test live theme toggles, hide/enable sections, and export updated configuration code directly to your clipboard.
-- **Accessible & Responsive**: Fully optimized across desktop, tablet, and mobile devices, with full support for `prefers-reduced-motion` and keyboard navigation.
+<p>
+A passionate AI & Data Science student 🚀 from India. Always working on some project or learning something new!
+<br>
+Stacks I have worked with : C++, Python, Pandas, NumPy, PyTorch, Scikit-learn, JavaScript, Node.js.
+<br>  
+Things I am currently experimenting with : Machine Learning, Data Analysis, Algo Trading, ...
+<br>
+Want to become a Data Scientist 💸 and an Open Source Contributor ❤️.
+</p>
+  <img align="right" alt="GIF" width="250" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dXo3emMwZ2t3aGEwYWNnMDc0bThqZjEwZDBlMjYzcXB5N2gxeTBsayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YtCAXWS94FZbWiKmKH/giphy.gif">
+<h3 id="-quick-facts">✨ Quick Facts</h3>
+<ul>
+<li>👨🏽‍💻 I’m currently pursuing B.Tech in AI & Data Science.</li>
+<li>🌱 I’m currently learning Machine Learning and Data Science.</li>
+</ul>
+<!--- 🤔 I’m looking for help for my future AI/ML projects.-->
+<ul>
+<li>💬 Ask me about anything related to C++, Python, DSA, Data Science, Machine Learning.(After googling it 😜😌)</li>
+</ul>
+<!--- ⚡️ Fun-Fact: I can spend hours debugging a single line of code 🙃. -->
+<ul>
+<li>🎿 Hobbies other than coding : Competitive Programming, Reading, Playing Chess, Exploring new technologies.</li>
+<li>📫 How to reach me: <a href="mailto:prtbws@zohomail.in">prtbws@zohomail.in</a></li>
+<li>📝 <a href="https://github.com/prtbws/prtbws/blob/main/resume.pdf">Resume</a></li>
+</ul>
 
----
+<h3>🎃Languages</h3>
+<p>
+  <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c" alt="C">
+  <img src="https://img.shields.io/badge/-C%2B%2B-black?style=flat-square&logo=cplusplus" alt="C++">
+  <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk" alt="Java">
+  <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/-PyPy-black?style=flat-square&logo=pypy" alt="PyPy">
+  <img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5" alt="HTML5">
+  <img src="https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3" alt="CSS3">
+  <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" alt="JavaScript">
+</p>
 
-## 🚀 Quick Start (Running Locally)
+<h3>🤖Data Science & AI</h3>
+<p>
+  <img src="https://img.shields.io/badge/-Pandas-black?style=flat-square&logo=pandas" alt="Pandas">
+  <img src="https://img.shields.io/badge/-NumPy-black?style=flat-square&logo=numpy" alt="NumPy">
+  <img src="https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=pytorch" alt="PyTorch">
+  <img src="https://img.shields.io/badge/-Matplotlib-black?style=flat-square&logo=matplotlib" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/-Scikit--learn-black?style=flat-square&logo=scikit-learn" alt="Scikit-learn">
+  <img src="https://img.shields.io/badge/-Hugging%20Face-black?style=flat-square&logo=huggingface" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/-Plotly-black?style=flat-square&logo=plotly" alt="Plotly">
+  <img src="https://img.shields.io/badge/-Jupyter-black?style=flat-square&logo=jupyter" alt="Jupyter">
+</p>
 
-### Prerequisites
-- Node.js (v18.18+ or v20+ recommended)
-- npm or pnpm or yarn
+<h3>🛠️Development & Tools</h3>
+<p>
+  <img src="https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js" alt="Node.js">
+  <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" alt="Git">
+  <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" alt="GitHub">
+  <img src="https://img.shields.io/badge/-GitLab-black?style=flat-square&logo=gitlab" alt="GitLab">
+  <img src="https://img.shields.io/badge/-Vercel-black?style=flat-square&logo=vercel" alt="Vercel">
+  <img src="https://img.shields.io/badge/-Ubuntu-black?style=flat-square&logo=ubuntu" alt="Ubuntu">
+</p>
 
-### 1. Install Dependencies
-```bash
-npm install
-```
-
-### 2. Run the Development Server
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 3. Build for Production
-```bash
-npm run build
-npm start
-```
-
----
-
-## 🛠️ How to Customize Your Portfolio
-
-All your content is cleanly isolated in **`src/data/portfolio.ts`**. You do not need to hunt across component files!
-
-```text
-src/
-├── data/
-│   ├── portfolio.ts   <-- 🎯 ALL EDITABLE CONTENT LIVES HERE
-│   └── theme.ts       <-- Central theme colors & animation settings
-├── types/
-│   └── portfolio.ts   <-- TypeScript interfaces for type safety
-└── public/
-    └── images/        <-- 🖼️ Put profile photo & project images here
-```
-
----
-
-### 1. Changing Name, Headline, Bio, and Email
-
-Open [`src/data/portfolio.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/portfolio.ts) and edit the `personal` object:
-
-```typescript
-export const initialPortfolioData: PortfolioData = {
-  personal: {
-    name: "Partha Biswas",
-    preferredName: "prtbws",
-    roleTitle: "AI & Data Science Undergrad · Competitive Programmer",
-    headline: "I build intelligent systems and engineer ideas into reality.",
-    shortBio: "Artificial Intelligence and Data Science undergraduate at IIITDM Kurnool...",
-    fullBio: [
-      "Currently pursuing my B.Tech in AI & Data Science at IIITDM Kurnool...",
-      "My passion lies at the intersection of mathematical reasoning and practical software...",
-    ],
-    avatarUrl: "/images/profile.jpg", // Location of your picture
-    location: "IIITDM Kurnool, Andhra Pradesh, India",
-    email: "prtbws@zohomail.in",
-    resumeUrl: "https://github.com/prtbws/prtbws/blob/main/resume.pdf",
-    hireable: true,
-    statusBadge: "Open to Internships & Research Collaborations",
-  },
-  // ...
-};
-```
+<h3 id="-next-steps">👣 Next Steps</h3>
+<p><em>Since you don’t want to leave my profile just yet! Here are some things you can do :</em></p>
+<p>❤️ Offer work : Send the offer on <a href="https://www.linkedin.com/in/prtbws/"><img src="https://img.shields.io/badge/-Partha Biswas-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/prtbws/" alt="Linkedin Badge"></a>
+or <a href="mailto:prtbws@zohomail.in"><img src="https://img.shields.io/badge/-prtbws@zohomail.in-c14438?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=mailto:prtbws@zohomail.in" alt="Gmail Badge"></a></p>
+<!--❤️ Follow : You can follow me here on [![GitHub followers](https://img.shields.io/github/followers/prtbws?label=Follow&style=social)](https://github.com/prtbws/?tab=follow) and [![Twitter Badge](https://img.shields.io/badge/-@Partha Biswas_atg-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Partha Biswas_atg)](https://twitter.com/Partha Biswas_atg)
+if you are on a similar path as mine.
+-->
 
 ---
 
-### 2. Replacing Your Profile Picture
+<div align="center">
 
-1. Place your new photo in [`public/images/`](file:///c:/IIITDMK/Projects/Protfolio/public/images/), e.g., `public/images/profile.jpg`.
-2. Ensure `personal.avatarUrl` in [`src/data/portfolio.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/portfolio.ts) points to `"/images/profile.jpg"`.
-3. Save the file. The website updates automatically!
+<table>
+<tr>
+<td align="center">
 
----
+<b>🏆 Other Profiles 🏆</b>
 
-### 3. Adding, Editing, or Reordering Projects
+<a href="https://leetcode.com/u/prtbws/"><img height="18" alt="LeetCode" src="https://img.shields.io/badge/-LeetCode-black?style=flat-square&logo=leetcode"></a>
+&nbsp;
+<a href="https://codolio.com/profile/prtbws"><img height="18" alt="Codolio" src="https://img.shields.io/badge/-Codolio-orange?style=flat-square&logo=codolio"></a>
+&nbsp;
+<a href="https://codeforces.com/profile/prtbws/"><img height="18" alt="Codeforces" src="https://img.shields.io/badge/-Codeforces-black?style=flat-square&logo=codeforces"></a>
+&nbsp;
+<a href="https://www.kaggle.com/prtbws"><img height="18" alt="Kaggle" src="https://img.shields.io/badge/-Kaggle-black?style=flat-square&logo=kaggle"></a>
+&nbsp;
+<a href="https://huggingface.co/prtbws"><img height="18" alt="HuggingFace" src="https://img.shields.io/badge/-HuggingFace-black?style=flat-square&logo=huggingface"></a>
 
-Projects are stored as an array of objects under `projects` in [`src/data/portfolio.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/portfolio.ts).
+</td>
+</tr>
+</table>
 
-#### To Add a New Project:
-Copy and paste this template into the `projects` array:
-
-```typescript
-{
-  id: "my-new-project",
-  title: "Neural Network Vision Engine",
-  tagline: "Real-time edge object classification using PyTorch & OpenCV",
-  category: "AI & ML", // Options: "Fintech & Quant" | "IoT & Embedded" | "Systems & C++" | "AI & ML" | "Web Applications"
-  status: "Completed", // Options: "Completed" | "In Development" | "Production" | "Prototype" | "Research"
-  featured: true,
-  description: "Detailed description of what the project does and why it was built.",
-  problemSolved: "The core technical challenge or bottleneck solved by this application.",
-  features: [
-    "Sub-15ms inference latency on low-power devices",
-    "Quantized 8-bit model architecture",
-  ],
-  techStack: ["Python", "PyTorch", "OpenCV", "C++"],
-  githubUrl: "https://github.com/prtbws/my-repo",
-  liveUrl: "https://my-demo-link.com", // Optional, omit if none exists
-  highlights: ["15ms Latency", "Edge AI", "PyTorch"],
-  enabled: true, // Set to false to temporarily hide it without deleting!
-},
-```
-
-#### To Temporarily Hide a Project:
-Change `enabled: false`. The project card and filters will automatically exclude it.
-
-#### To Reorder Projects:
-Simply move the project object higher or lower in the array. The first items appear first on the page.
+</div>
 
 ---
+<div align="center">
 
-### 4. Updating Competitive Programming & Achievements
+<table>
+<tr>
+<td align="center">
 
-Update the `competitiveMetrics` array in [`src/data/portfolio.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/portfolio.ts):
+<b>💌Connect with me💌</b>
 
-```typescript
-competitiveMetrics: [
-  {
-    id: "total-solved",
-    platform: "Overall Problem Solving",
-    metricLabel: "Problems Solved",
-    value: "700+",
-    numericTarget: 700, // Number for the animated counter
-    suffix: "+",
-    detail: "Algorithmic & data structure tracking problems resolved across global platforms.",
-    profileUrl: "https://codolio.com/profile/prtbws",
-    iconName: "CheckCircle2",
-    accentColor: "#10b981",
-    verified: true,
-    enabled: true,
-  },
-  {
-    id: "codeforces",
-    platform: "Codeforces",
-    metricLabel: "Max Contest Rating",
-    value: "1402",
-    numericTarget: 1402,
-    detail: "Division rank: Pupil (Specialist peak). Official Handle: prtbws.",
-    profileUrl: "https://codeforces.com/profile/prtbws",
-    iconName: "Terminal",
-    accentColor: "#6366f1",
-    verified: true,
-    enabled: true,
-  },
-  // ...
-]
-```
+<a href="https://www.linkedin.com/in/prtbws/"><img height="18" alt="LeetCode" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin"></a>
+&nbsp;
+<a href="mailto:prtbws@zohomail.in"><img height="18" alt="Email" src="https://img.shields.io/badge/-Email-black?style=flat-square&logo=gmail"></a>
+&nbsp;
+<a href="https://t.me/prtbws"><img height="18" alt="Telegram" src="https://img.shields.io/badge/-Telegram-black?style=flat-square&logo=telegram"></a>
+&nbsp;
+<a href="https://www.instagram.com/prt.bws/"><img height="18" alt="Instagram" src="https://img.shields.io/badge/-Instagram-black?style=flat-square&logo=instagram"></a>
 
----
+</td>
+</tr>
+</table>
 
-### 5. Managing Skills
-
-Add or adjust skills in the `skills` array in [`src/data/portfolio.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/portfolio.ts):
-
-```typescript
-{
-  name: "C++",
-  category: "languages", // "languages" | "data_ml" | "systems_cs" | "tools_dev"
-  proficiency: "Proficient", // "Familiar" | "Proficient" | "Advanced" | "Core"
-  highlight: true, // Displays glowing accent dot
-  enabled: true,
-}
-```
-
----
-
-### 6. Managing Timeline & Journey
-
-Add or update milestones under `timeline` in [`src/data/portfolio.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/portfolio.ts):
-
-```typescript
-{
-  id: "my-internship",
-  type: "experience", // "education" | "experience" | "hackathon" | "leadership"
-  title: "Software Engineer Intern",
-  organization: "Tech Company",
-  period: "Summer 2026",
-  location: "Bangalore, India",
-  description: "Engineered scalable distributed backend services...",
-  highlights: ["Designed RESTful APIs", "Optimized database queries by 40%"],
-  tags: ["Go", "Docker", "PostgreSQL"],
-  enabled: true,
-}
-```
-
----
-
-### 7. Changing Theme Colors & Animations
-
-Open [`src/data/theme.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/theme.ts) or [`src/data/portfolio.ts`](file:///c:/IIITDMK/Projects/Protfolio/src/data/portfolio.ts) under `theme`:
-
-```typescript
-theme: {
-  accentColor: "#6366f1",     // Primary electric violet / indigo
-  highlightColor: "#06b6d4",  // Cyan highlight
-  borderRadius: "1rem",
-  enableCustomCursor: true,
-  enableBackgroundParticles: true, // Toggle ambient star particles
-  enableGridGlow: true,            // Toggle radial gradient halos
-  animationIntensity: "normal",
-}
-```
-
----
-
-## 🚢 Deployment Guide
-
-### Deploying to Vercel (Recommended)
-1. Push your repository to GitHub: `git push origin main`.
-2. Visit [vercel.com](https://vercel.com) and log in with GitHub.
-3. Click **Add New Project** and select your `Protfolio` repo.
-4. Framework Preset will automatically detect **Next.js**.
-5. Click **Deploy**. Your portfolio will be live on a custom `.vercel.app` domain or custom domain with automatic SSL and continuous deployment!
-
-### Deploying to Netlify
-1. Connect your repository on [netlify.com](https://netlify.com).
-2. Set Build Command: `npm run build`
-3. Set Publish directory: `.next`
-4. Click Deploy.
-
----
-
-## 📜 Verified Authenticity
-
-All portfolio content is verified against:
-- GitHub: [github.com/prtbws](https://github.com/prtbws)
-- LinkedIn: [linkedin.com/in/prtbws](https://www.linkedin.com/in/prtbws/)
-- Codeforces: [codeforces.com/profile/prtbws](https://codeforces.com/profile/prtbws)
-- Codolio: [codolio.com/profile/prtbws](https://codolio.com/profile/prtbws)
-- Solasta 2026 Hackathon (GDG IIITDM Kurnool)
-- SyncSwitch ESP32 Triple-Redundant Smart Switchboard (Group 4 IoT project)
-- Quantitative Stock Selector & Market Analysis (NIFTY 500 Python screener)
+</div>
