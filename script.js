@@ -1,170 +1,202 @@
 /**
  * ============================================================================
- * PARTHA BISWAS — PERSONAL PORTFOLIO DATA & SCRIPT
+ * PARTHA BISWAS — ADVANCED ANIMATED DARK PORTFOLIO SCRIPT
  * ============================================================================
- * To edit your portfolio, simply modify the 'portfolioData' object below.
- * All sections (skills, projects, achievements, timeline, links) are rendered
- * dynamically from this data. No HTML modifications are required.
+ * Centralized portfolio data & interactive animation engine.
+ * Edit 'portfolioData' below to update projects, skills, achievements, or bio.
  */
 
 const portfolioData = {
   // 1. Personal Information
   personal: {
     name: "Partha Biswas",
-    role: "AI & Data Science Undergraduate",
-    badge: "Undergraduate at IIIT Kurnool",
+    preferredName: "prtbws",
+    badge: "Available for Internships & Research",
     avatar: "images/profile.jpg",
     email: "prtbws@zohomail.in",
     intro:
-      "I am an Artificial Intelligence and Data Science undergraduate at IIIT Kurnool with a strong interest in competitive programming, machine learning, Data Science, and practical software development.",
-    location: "Kurnool, Andhra Pradesh, India",
+      "Artificial Intelligence and Data Science undergraduate at IIITDM Kurnool. I engineer intelligent software systems, design quantitative stock screening algorithms, and tackle complex algorithmic challenges in competitive programming.",
+    location: "IIITDM Kurnool, Andhra Pradesh, India",
     resumeUrl: "resume.pdf"
   },
 
-  // 2. Verified Social & Developer Profiles
-  socials: [
-    { name: "GitHub", url: "https://github.com/prtbws" },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/prtbws/" },
-    { name: "Codeforces", url: "https://codeforces.com/profile/prtbws" },
-    { name: "Codolio", url: "https://codolio.com/profile/prtbws" }
+  // 2. Dynamic Typing Headline Roles
+  roles: [
+    "AI & Data Science Undergrad",
+    "Competitive Programmer (700+ Solved)",
+    "Quantitative Strategy Builder",
+    "C++ & Low-Level Systems Dev",
+    "ESP32 Embedded IoT Engineer"
   ],
 
-  // 3. About Me Details
+  // 3. Verified Developer & Contest Profiles
+  socials: [
+    { name: "GitHub", url: "https://github.com/prtbws", icon: "github" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/prtbws/", icon: "linkedin" },
+    { name: "Codeforces", url: "https://codeforces.com/profile/prtbws", icon: "codeforces" },
+    { name: "Codolio", url: "https://codolio.com/profile/prtbws", icon: "codolio" }
+  ],
+
+  // 4. About Narrative & Highlight Pillars
   about: {
     paragraphs: [
-      "I am currently pursuing a B.Tech in Artificial Intelligence and Data Science at the Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kurnool (2025–2029).",
-      "My work focuses on bridging theoretical problem solving with real-world engineering. I regularly practice competitive programming, design automated equity screening tools, and build robust software in C++ and Python.",
-      "I enjoy working across different layers of computing—from low-level memory management in C and embedded IoT microcontrollers to applied machine learning and data analysis."
+      "I am an Artificial Intelligence and Data Science undergraduate at the Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kurnool (2025–2029).",
+      "My passion lives at the intersection of mathematical problem-solving and systems software: engineering quantitative equity screeners with multi-indicator confluence in Python, writing low-latency non-blocking firmware in C++ for ESP32 microcontrollers, and rigorously practicing competitive programming.",
+      "With over 700+ algorithmic problems solved across Codeforces, LeetCode, CSES, and CodeChef, I thrive on optimizing asymptotic complexity, cache locality, and architecting real-world applications with high reliability."
     ],
     cards: [
       {
-        title: "Education",
-        description: "B.Tech in Artificial Intelligence & Data Science, IIITDM Kurnool (2025–2029 Expected)"
+        icon: "grad",
+        title: "IIITDM Kurnool '29",
+        desc: "B.Tech in Artificial Intelligence & Data Science (Cumulative GPA: 7.3)"
       },
       {
-        title: "Competitive Programming",
-        description: "700+ algorithmic problems solved across Codeforces, LeetCode, CSES, and CodeChef"
+        icon: "code",
+        title: "Competitive Programmer",
+        desc: "700+ problems solved across Codeforces (Pupil 1402), LeetCode (1750+), CSES & CodeChef"
       },
       {
+        icon: "trend",
         title: "Quantitative Finance",
-        description: "Technical momentum screening, multi-indicator confluence, and strategy backtesting"
+        desc: "Technical momentum screening, multi-indicator confluence, and 5-year historical backtesting"
       },
       {
-        title: "Systems & IoT",
-        description: "Firmware architecture in C++, memory management, and ESP32 embedded hardware"
+        icon: "cpu",
+        title: "Firmware & Systems",
+        desc: "Low-level memory management in C and triple-redundant IoT hardware on ESP32"
       }
     ]
   },
 
-  // 4. Technical Skills by Category
+  // 5. Technical Competencies Matrix
   skills: [
     {
-      category: "Programming Languages",
-      description: "Core languages used for competitive programming and application engineering",
+      category: "languages",
+      title: "Programming Languages",
+      desc: "Core languages for high-performance computing & problem solving",
       items: ["C++", "C", "Python", "JavaScript", "HTML5", "CSS3"]
     },
     {
-      category: "Data Science & Machine Learning",
-      description: "Libraries for numerical computing, data analysis, and predictive modeling",
+      category: "data_ml",
+      title: "Data Science & Machine Learning",
+      desc: "Libraries for mathematical modeling & quantitative analysis",
       items: ["NumPy", "Pandas", "PyTorch", "Scikit-Learn", "yfinance", "Matplotlib", "Plotly"]
     },
     {
-      category: "Computer Science & Systems",
-      description: "Core principles of algorithms, data structures, and embedded hardware",
-      items: ["Data Structures & Algorithms", "Object-Oriented Programming", "Memory Management", "ESP32 Firmware"]
+      category: "systems",
+      title: "Computer Science & Systems",
+      desc: "Foundational pillars of algorithms, architecture, and hardware",
+      items: ["Data Structures & Algorithms", "Object-Oriented Programming", "Memory Management", "ESP32 Embedded Systems"]
     },
     {
-      category: "Development Tools & Platforms",
-      description: "Daily developer tooling, version control, and cloud logging",
+      category: "tools",
+      title: "Development Tools & Platforms",
+      desc: "Version control, shell automation, and cloud integrations",
       items: ["Git", "GitHub", "Linux / Bash", "Jupyter Notebook", "Firebase RTDB", "Sinric Pro"]
     }
   ],
 
-  // 5. Real GitHub Projects
+  // 6. Real Verified GitHub Projects
   projects: [
     {
+      id: "stock-market-analysis",
       title: "Stock Market Analysis & Trading Strategy",
+      category: "Fintech & Quant",
       status: "Completed",
       description:
-        "A Python-based quantitative stock screening and market analysis system. Ingests historical pricing data across NIFTY 500 equities, computes technical indicator confluences (SMA, EMA, Bollinger Bands, RSI, MACD, ADX, SuperTrend), and backtests momentum rules over 5 years of market data.",
+        "A Python-based quantitative stock screening and market analysis system. Ingests historical pricing data across NIFTY 500 equities, computes technical indicator confluences (SMA, EMA, Bollinger Bands, RSI, MACD, ADX, SuperTrend), and backtests momentum rules over 5 years of historical market data yielding ~60% accuracy with strict risk caps.",
       tech: ["Python", "Pandas", "NumPy", "yfinance", "Plotly", "Matplotlib", "Jupyter"],
       repoUrl: "https://github.com/prtbws/stock-market-analysis"
     },
     {
+      id: "syncswitch",
       title: "SyncSwitch v4.1.0 – IoT Smart Switchboard",
+      category: "IoT & Embedded",
       status: "Completed",
       description:
-        "A triple-redundant smart switchboard engineered on ESP32 to eliminate single-point network failure. Provides seamless control via tactile switches, TSOP 38kHz IR remote, and Sinric Pro voice/app integrations, combined with real-time MQ-2 gas/smoke detection and Firebase RTDB telemetry.",
+        "An advanced IoT-based home automation and environmental safety hardware system built on ESP32 to eliminate single-point failure. Implements triple-redundant switching across physical tactile switches, TSOP 38kHz IR remote, and Sinric Pro voice/app integrations with real-time MQ-2 gas/smoke detection and Firebase RTDB telemetry.",
       tech: ["C++", "ESP32", "Arduino", "Sinric Pro", "Firebase RTDB", "Sensors"],
       repoUrl: "https://github.com/ashwinjain825/syncswitch"
     },
     {
+      id: "banking",
       title: "BankSys – Banking Management System in C",
+      category: "Systems & C++",
       status: "Completed",
       description:
-        "A modular, memory-safe command-line banking application developed in C. Emphasizes low-level pointer discipline, persistent file storage for account ledgers, atomic deposit/withdrawal routines, and structured audit logs.",
+        "A modular, memory-safe command-line banking application written in pure C. Prioritizes strict pointer arithmetic discipline, persistent binary file records for balance ledgers, atomic deposit/withdrawal routines, and structured audit logs with clean separation of data and presentation layers.",
       tech: ["C", "GCC Compiler", "File I/O", "Memory Management", "CLI"],
       repoUrl: "https://github.com/prtbws/banking"
     },
     {
+      id: "dsa-solutions",
       title: "DSA & CP Solutions Ecosystem",
+      category: "Systems & C++",
       status: "Active",
       description:
-        "Continuous automated repository tracking 700+ competitive programming solutions across Codeforces, LeetCode, CSES, and CodeChef, accompanied by curated Python Jupyter notebooks on trees, graphs, dynamic programming, and constraint analysis.",
+        "Continuous automated repository tracking 700+ competitive programming solutions across Codeforces, LeetCode, CSES, and CodeChef synced via SolveBase. Accompanied by handcrafted Python Jupyter notebooks on trees, graphs, dynamic programming, and constraint analysis.",
       tech: ["C++", "Python", "Algorithms", "Data Structures", "SolveBase"],
       repoUrl: "https://github.com/prtbws/dsa-solutions"
     },
     {
+      id: "ipoai",
       title: "IPO AI – Machine Learning Valuation Engine",
+      category: "AI & ML",
       status: "In Development",
       description:
-        "An experimental machine learning project exploring the automated parsing of Draft Red Herring Prospectus (DRHP) filings, financial ratios, and subscription metrics to forecast first-day listing momentum.",
+        "An experimental machine learning project exploring automated parsing of Draft Red Herring Prospectus (DRHP) filings, balance sheet financial ratios, and subscription metrics to forecast first-day listing momentum.",
       tech: ["Python", "Machine Learning", "Scikit-Learn", "Financial NLP", "Pandas"],
       repoUrl: "https://github.com/prtbws/ipoai"
     },
     {
+      id: "aggstore",
       title: "AGG Store – Full-Stack Web Platform",
+      category: "Systems & C++",
       status: "Completed",
       description:
-        "Foundational client-server web application demonstrating semantic HTML5, CSS3, dynamic DOM interactions, and an Express.js backend server for order logging.",
+        "Inaugural full-stack web project demonstrating client-server HTTP communication, semantic HTML5, CSS3 layout, dynamic DOM operations, and an Express.js backend for order routing.",
       tech: ["JavaScript", "Node.js", "Express", "HTML5", "CSS3"],
       repoUrl: "https://github.com/prtbws/aggstore"
     }
   ],
 
-  // 6. Verified Competitive Programming Achievements
+  // 7. Verified Competitive Programming Metrics
   achievements: [
     {
       platform: "Problem Solving",
-      value: "700+",
+      targetNumber: 700,
+      suffix: "+",
       label: "Problems Solved",
       detail: "Verified algorithmic solutions across Codeforces, LeetCode, CSES, and CodeChef.",
       url: "https://codolio.com/profile/prtbws"
     },
     {
       platform: "Codeforces",
-      value: "1402",
+      targetNumber: 1402,
+      suffix: "",
       label: "Max Contest Rating",
       detail: "Division rank: Pupil (Specialist peak). Official handle: prtbws (IIITDM Kurnool).",
       url: "https://codeforces.com/profile/prtbws"
     },
     {
       platform: "LeetCode",
-      value: "1750+",
+      targetNumber: 1750,
+      suffix: "+",
       label: "Peak Contest Rating",
-      detail: "Consistent contest participation across dynamic programming, segment trees, and graphs.",
+      detail: "Contest efficiency across dynamic programming, segment trees, binary search, and graphs.",
       url: "https://codolio.com/profile/prtbws"
     },
     {
       platform: "CodeChef",
-      value: "2-Star",
+      targetNumber: null,
+      customDisplay: "2-Star",
       label: "Verified Division Status",
-      detail: "Earned 2-Star division ranking through multi-hour competitive programming contests.",
+      detail: "Consistent contest performance in multi-hour competitive programming challenges.",
       url: "https://codolio.com/profile/prtbws"
     }
   ],
 
-  // 7. Verified Education & Experience Timeline
+  // 8. Education & Journey Timeline
   timeline: [
     {
       period: "2025 — 2029 (Expected)",
@@ -174,7 +206,7 @@ const portfolioData = {
         "Undergraduate degree focusing on Computer Science foundations, Data Science, and Machine Learning. Cumulative GPA: 7.3.",
       bullets: [
         "Core Coursework: Data Structures, Analysis of Algorithms, Object-Oriented Programming, Data Science Foundations.",
-        "Active member of campus technical circles and algorithmic programming groups."
+        "Active member of campus technical communities and competitive programming circles."
       ]
     },
     {
@@ -182,9 +214,9 @@ const portfolioData = {
       title: "Developer & Participant — Solasta 2026 GDG Hackathon",
       organization: "Google Developer Groups on Campus · IIITDM Kurnool",
       description:
-        "Collaborated in a team sprint to build a Community Event Discovery Platform to simplify event discovery for campus students.",
+        "Collaborated in a fast-paced sprint to build a Community Event Discovery Platform to simplify event discovery for campus students.",
       bullets: [
-        "Developed responsive user interface presentation layers using HTML, CSS, and JavaScript.",
+        "Developed responsive user interface presentation layers using HTML, custom CSS, and interactive JavaScript.",
         "Coordinated team Git branching, commits, and pull requests under a 24-hour hackathon deadline."
       ]
     },
@@ -204,96 +236,178 @@ const portfolioData = {
 
 /**
  * ============================================================================
- * DOM RENDERING FUNCTIONS
+ * INITIALIZATION ON DOM LOAD
  * ============================================================================
  */
-
 document.addEventListener("DOMContentLoaded", () => {
-  renderPersonalDetails();
-  renderAboutSection();
-  renderSkills();
-  renderProjects();
+  renderPersonal();
+  initTypingEffect();
+  renderAbout();
+  renderSkills("all");
+  renderProjects("all");
   renderAchievements();
   renderTimeline();
-  renderContactAndFooter();
+  renderFooter();
 
-  setupScrollProgress();
-  setupSmoothScrollAndNav();
-  setupScrollObserver();
-  setupBackToTop();
-  setupMobileMenu();
-  setupCopyEmail();
+  initParticleCanvas();
+  initCursorSpotlight();
+  init3DTilt();
+  initFilterBars();
+  initScrollObserver();
+  initScrollProgress();
+  initBackToTop();
+  initMobileMenu();
+  initCopyEmail();
 });
 
-// Render Hero and Personal Elements
-function renderPersonalDetails() {
-  const { name, role, badge, intro, avatar } = portfolioData.personal;
+/* ==========================================================================
+   DOM RENDERING ROUTINES
+   ========================================================================== */
+
+function renderPersonal() {
+  const { name, badge, intro, avatar, email } = portfolioData.personal;
 
   const nameEl = document.getElementById("hero-name");
-  const roleEl = document.getElementById("hero-role");
-  const badgeEl = document.getElementById("hero-badge");
+  const badgeEl = document.getElementById("hero-badge-text");
   const introEl = document.getElementById("hero-intro");
   const avatarEl = document.getElementById("hero-avatar");
+  const emailLink = document.getElementById("contact-email-link");
+  const emailText = document.getElementById("contact-email-text");
 
   if (nameEl) nameEl.textContent = name;
-  if (roleEl) roleEl.textContent = role;
   if (badgeEl) badgeEl.textContent = badge;
   if (introEl) introEl.textContent = intro;
   if (avatarEl && avatar) {
     avatarEl.src = avatar;
     avatarEl.alt = name;
   }
+  if (emailLink) emailLink.href = `mailto:${email}`;
+  if (emailText) emailText.textContent = `Send Email (${email})`;
 
-  // Hero socials
+  // Hero Socials
   const socialsContainer = document.getElementById("hero-socials");
   if (socialsContainer) {
     socialsContainer.innerHTML = portfolioData.socials
       .map(
         (s) => `
-        <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-link">
-          <span>${s.name}</span> &nearr;
+        <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>${s.name}</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>`
+      )
+      .join("");
+  }
+
+  // Contact Socials
+  const contactLinks = document.getElementById("contact-links");
+  if (contactLinks) {
+    contactLinks.innerHTML = portfolioData.socials
+      .map(
+        (s) => `
+        <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>${s.name}</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
         </a>`
       )
       .join("");
   }
 }
 
-// Render About Section Text and Highlight Cards
-function renderAboutSection() {
-  const textContainer = document.getElementById("about-text");
-  const cardsContainer = document.getElementById("about-cards");
+// Typing Effect in Hero
+function initTypingEffect() {
+  const el = document.getElementById("typing-text");
+  if (!el) return;
 
-  if (textContainer) {
-    textContainer.innerHTML = portfolioData.about.paragraphs
-      .map((p) => `<p>${p}</p>`)
-      .join("");
+  const roles = portfolioData.roles;
+  let roleIdx = 0;
+  let charIdx = 0;
+  let isDeleting = false;
+  let typingSpeed = 80;
+
+  function type() {
+    const currentRole = roles[roleIdx];
+
+    if (isDeleting) {
+      el.textContent = currentRole.substring(0, charIdx - 1);
+      charIdx--;
+      typingSpeed = 35;
+    } else {
+      el.textContent = currentRole.substring(0, charIdx + 1);
+      charIdx++;
+      typingSpeed = 80;
+    }
+
+    if (!isDeleting && charIdx === currentRole.length) {
+      typingSpeed = 2200; // Pause at end of text
+      isDeleting = true;
+    } else if (isDeleting && charIdx === 0) {
+      isDeleting = false;
+      roleIdx = (roleIdx + 1) % roles.length;
+      typingSpeed = 400; // Pause before next word
+    }
+
+    setTimeout(type, typingSpeed);
   }
 
-  if (cardsContainer) {
-    cardsContainer.innerHTML = portfolioData.about.cards
+  type();
+}
+
+// Render About Narrative & Highlights
+function renderAbout() {
+  const textEl = document.getElementById("about-text");
+  const cardsEl = document.getElementById("about-cards");
+
+  if (textEl) {
+    const pHTML = portfolioData.about.paragraphs.map((p) => `<p>${p}</p>`).join("");
+    // Keep the CTA bar at the bottom
+    const existingCta = textEl.querySelector(".about-cta-bar");
+    textEl.innerHTML = pHTML;
+    if (existingCta) textEl.appendChild(existingCta);
+  }
+
+  if (cardsEl) {
+    cardsEl.innerHTML = portfolioData.about.cards
       .map(
         (c) => `
-        <div class="about-card">
-          <h3 class="about-card-title">${c.title}</h3>
-          <p class="about-card-desc">${c.description}</p>
+        <div class="about-highlight-card glass-card">
+          <div class="highlight-header">
+            <div class="highlight-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="highlight-title">${c.title}</h3>
+          </div>
+          <p class="highlight-desc">${c.desc}</p>
         </div>`
       )
       .join("");
   }
 }
 
-// Render Skills Grid
-function renderSkills() {
+// Render Skills (filterable)
+function renderSkills(categoryFilter = "all") {
   const container = document.getElementById("skills-grid");
   if (!container) return;
 
-  container.innerHTML = portfolioData.skills
+  const filtered =
+    categoryFilter === "all"
+      ? portfolioData.skills
+      : portfolioData.skills.filter((s) => s.category === categoryFilter);
+
+  container.innerHTML = filtered
     .map(
       (cat) => `
-      <div class="skill-category-card">
-        <h3 class="skill-category-title">${cat.category}</h3>
-        <p class="skill-category-desc">${cat.description}</p>
-        <div class="skill-pills">
+      <div class="skill-card glass-card">
+        <h3 class="skill-category-title">${cat.title}</h3>
+        <p class="skill-category-desc">${cat.desc}</p>
+        <div class="skill-pills-wrap">
           ${cat.items.map((item) => `<span class="skill-pill">${item}</span>`).join("")}
         </div>
       </div>`
@@ -301,71 +415,88 @@ function renderSkills() {
     .join("");
 }
 
-// Render Projects Cards
-function renderProjects() {
+// Render Projects (filterable with 3D tilt)
+function renderProjects(filter = "all") {
   const container = document.getElementById("projects-grid");
   if (!container) return;
 
-  container.innerHTML = portfolioData.projects
+  const filtered =
+    filter === "all"
+      ? portfolioData.projects
+      : portfolioData.projects.filter((p) => p.category === filter);
+
+  container.innerHTML = filtered
     .map((p) => {
-      const statusBadge =
+      const statusClass =
         p.status === "Completed"
-          ? `<span class="badge badge-success">Completed</span>`
+          ? "badge-success"
           : p.status === "In Development"
-          ? `<span class="badge badge-warning">In Development</span>`
-          : `<span class="badge badge-accent">${p.status}</span>`;
+          ? "badge-warning"
+          : "badge-accent";
 
       return `
-      <article class="project-card">
-        <div class="project-header">
-          <h3 class="project-title">${p.title}</h3>
-          ${statusBadge}
+      <article class="project-card glass-card" data-tilt>
+        <div class="project-top-meta">
+          <span class="project-category-tag">${p.category}</span>
+          <span class="badge ${statusClass}">
+            <span class="beacon-dot"></span>
+            <span>${p.status}</span>
+          </span>
         </div>
-        <p class="project-desc">${p.description}</p>
-        <div class="project-tech">
-          ${p.tech.map((t) => `<span class="tech-tag">${t}</span>`).join("")}
+
+        <h3 class="project-title">${p.title}</h3>
+        <p class="project-description">${p.description}</p>
+
+        <div class="project-tech-tags">
+          ${p.tech.map((t) => `<span class="tech-pill">${t}</span>`).join("")}
         </div>
-        <div class="project-links">
-          <a href="${p.repoUrl}" target="_blank" rel="noopener noreferrer">
-            View on GitHub &nearr;
+
+        <div class="project-action-bar">
+          <a href="${p.repoUrl}" target="_blank" rel="noopener noreferrer" class="repo-link">
+            <span>Inspect GitHub Repository</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
           </a>
         </div>
       </article>`;
     })
     .join("");
+
+  // Re-attach 3D tilt handlers to freshly rendered project cards
+  init3DTilt();
 }
 
-// Render Competitive Programming Achievements
+// Render Achievements (Animated Stat Cards)
 function renderAchievements() {
-  const grid = document.getElementById("achievements-grid");
-  const note = document.getElementById("unified-profile-note");
+  const container = document.getElementById("achievements-grid");
+  if (!container) return;
 
-  if (grid) {
-    grid.innerHTML = portfolioData.achievements
-      .map(
-        (a) => `
-        <div class="achievement-card">
-          <span class="achievement-platform">${a.platform}</span>
-          <div class="achievement-value">${a.value}</div>
-          <div class="achievement-label">${a.label}</div>
-          <p class="achievement-detail">${a.detail}</p>
-        </div>`
-      )
-      .join("");
-  }
-
-  if (note) {
-    note.innerHTML = `
-      <div class="unified-text">
-        <strong>Unified Coding Profile:</strong> View verified ratings, problem counters, and contest histories consolidated on Codolio.
-      </div>
-      <a href="https://codolio.com/profile/prtbws" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.45rem 1rem;">
-        codolio.com/profile/prtbws &nearr;
-      </a>`;
-  }
+  container.innerHTML = portfolioData.achievements
+    .map((a, idx) => {
+      const isCounter = a.targetNumber !== null;
+      return `
+      <div class="achievement-card glass-card" data-index="${idx}">
+        <span class="achievement-platform">${a.platform}</span>
+        <div class="achievement-number-wrap">
+          <span class="achievement-number" ${
+            isCounter
+              ? `data-target="${a.targetNumber}" data-suffix="${a.suffix}"`
+              : ""
+          }>
+            ${isCounter ? "0" + a.suffix : a.customDisplay}
+          </span>
+        </div>
+        <div class="achievement-label">${a.label}</div>
+        <p class="achievement-detail">${a.detail}</p>
+        <div class="achievement-bottom-glow"></div>
+      </div>`;
+    })
+    .join("");
 }
 
-// Render Education and Experience Timeline
+// Render Journey Timeline
 function renderTimeline() {
   const container = document.getElementById("timeline-container");
   if (!container) return;
@@ -375,211 +506,473 @@ function renderTimeline() {
       (item) => `
       <div class="timeline-item">
         <div class="timeline-marker" aria-hidden="true"></div>
-        <div class="timeline-header">
-          <h3 class="timeline-title">${item.title}</h3>
-          <span class="timeline-period">${item.period}</span>
+        <div class="timeline-card glass-card">
+          <div class="timeline-header">
+            <h3 class="timeline-title">${item.title}</h3>
+            <span class="timeline-period">${item.period}</span>
+          </div>
+          <div class="timeline-org">${item.organization}</div>
+          <p class="timeline-desc">${item.description}</p>
+          ${
+            item.bullets && item.bullets.length
+              ? `<ul class="timeline-bullets">
+                  ${item.bullets.map((b) => `<li>${b}</li>`).join("")}
+                 </ul>`
+              : ""
+          }
         </div>
-        <div class="timeline-org">${item.organization}</div>
-        <p class="timeline-desc">${item.description}</p>
-        ${
-          item.bullets && item.bullets.length
-            ? `<ul class="timeline-bullets">
-                ${item.bullets.map((b) => `<li>${b}</li>`).join("")}
-               </ul>`
-            : ""
-        }
       </div>`
     )
     .join("");
 }
 
-// Render Contact Links & Footer
-function renderContactAndFooter() {
-  const email = portfolioData.personal.email;
-  const emailLink = document.getElementById("contact-email-link");
-  if (emailLink) {
-    emailLink.href = `mailto:${email}`;
-    emailLink.textContent = `Send Email (${email})`;
-  }
+// Render Footer
+function renderFooter() {
+  const yearEl = document.getElementById("current-year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // Contact links
-  const contactLinks = document.getElementById("contact-links");
-  if (contactLinks) {
-    contactLinks.innerHTML = portfolioData.socials
-      .map(
-        (s) => `
-        <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-link">
-          <span>${s.name}</span> &nearr;
-        </a>`
-      )
-      .join("");
-  }
-
-  // Footer links and year
   const footerLinks = document.getElementById("footer-links");
   if (footerLinks) {
     footerLinks.innerHTML = portfolioData.socials
       .map(
         (s) => `
-        <a href="${s.url}" target="_blank" rel="noopener noreferrer">
+        <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="footer-link">
           ${s.name}
         </a>`
       )
       .join("");
   }
+}
 
-  const yearEl = document.getElementById("current-year");
-  if (yearEl) {
-    yearEl.textContent = new Date().getFullYear();
+/* ==========================================================================
+   ANIMATION ENGINES
+   ========================================================================== */
+
+// 1. Interactive Background Canvas (Constellation & Connected Particles)
+function initParticleCanvas() {
+  const canvas = document.getElementById("bg-canvas");
+  if (!canvas) return;
+
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  let width = (canvas.width = window.innerWidth);
+  let height = (canvas.height = window.innerHeight);
+
+  window.addEventListener("resize", () => {
+    width = canvas.width = window.innerWidth;
+    height = canvas.height = window.innerHeight;
+  });
+
+  const particleCount = Math.min(Math.floor(width / 24), 65);
+  const particles = [];
+  const mouse = { x: -1000, y: -1000, radius: 140 };
+
+  window.addEventListener("mousemove", (e) => {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+  });
+
+  for (let i = 0; i < particleCount; i++) {
+    particles.push({
+      x: Math.random() * width,
+      y: Math.random() * height,
+      vx: (Math.random() - 0.5) * 0.45,
+      vy: (Math.random() - 0.5) * 0.45,
+      size: Math.random() * 1.6 + 0.6,
+      baseAlpha: Math.random() * 0.45 + 0.2
+    });
   }
+
+  function animate() {
+    ctx.clearRect(0, 0, width, height);
+
+    // Update & draw particles
+    for (let i = 0; i < particles.length; i++) {
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.x < 0) p.x = width;
+      if (p.x > width) p.x = 0;
+      if (p.y < 0) p.y = height;
+      if (p.y > height) p.y = 0;
+
+      // Distance to mouse
+      const dxm = p.x - mouse.x;
+      const dym = p.y - mouse.y;
+      const distMouse = Math.sqrt(dxm * dxm + dym * dym);
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(165, 180, 252, ${p.baseAlpha})`;
+      ctx.fill();
+
+      // Connect nearby particles
+      for (let j = i + 1; j < particles.length; j++) {
+        const p2 = particles[j];
+        const dx = p.x - p2.x;
+        const dy = p.y - p2.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+
+        if (dist < 115) {
+          const alpha = (1 - dist / 115) * 0.22;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(p2.x, p2.y);
+          ctx.strokeStyle = `rgba(99, 102, 241, ${alpha})`;
+          ctx.lineWidth = 0.75;
+          ctx.stroke();
+        }
+      }
+
+      // Connect to mouse
+      if (distMouse < mouse.radius) {
+        const alpha = (1 - distMouse / mouse.radius) * 0.35;
+        ctx.beginPath();
+        ctx.moveTo(p.x, p.y);
+        ctx.lineTo(mouse.x, mouse.y);
+        ctx.strokeStyle = `rgba(6, 182, 212, ${alpha})`;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
 }
 
-/**
- * ============================================================================
- * INTERACTIVE BEHAVIORS & ACCESSIBILITY
- * ============================================================================
- */
+// 2. Cursor Spotlight Tracker
+function initCursorSpotlight() {
+  const spotlight = document.getElementById("cursor-spotlight");
+  if (!spotlight) return;
 
-// Scroll Progress Bar Indicator
-function setupScrollProgress() {
-  const progressBar = document.getElementById("scroll-progress");
-  if (!progressBar) return;
+  let currentX = window.innerWidth / 2;
+  let currentY = window.innerHeight / 2;
+  let targetX = currentX;
+  let targetY = currentY;
 
-  window.addEventListener("scroll", () => {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
-    progressBar.style.width = `${progress}%`;
-  }, { passive: true });
+  window.addEventListener("mousemove", (e) => {
+    targetX = e.clientX;
+    targetY = e.clientY;
+  });
+
+  function update() {
+    currentX += (targetX - currentX) * 0.12;
+    currentY += (targetY - currentY) * 0.12;
+    spotlight.style.left = `${currentX}px`;
+    spotlight.style.top = `${currentY}px`;
+    requestAnimationFrame(update);
+  }
+
+  update();
 }
 
-// Smooth Scrolling & Navbar Active State
-function setupSmoothScrollAndNav() {
-  const navLinks = document.querySelectorAll(".nav-link");
-  const sections = document.querySelectorAll("section[id]");
+// 3. Interactive 3D Card Tilt
+function init3DTilt() {
+  const cards = document.querySelectorAll("[data-tilt], #avatar-card");
 
-  // Update active nav link on scroll
-  window.addEventListener("scroll", () => {
-    let currentId = "";
-    const scrollY = window.pageYOffset;
+  cards.forEach((card) => {
+    // Avoid double attaching
+    if (card._hasTiltListener) return;
+    card._hasTiltListener = true;
 
-    sections.forEach((section) => {
-      const sectionTop = section.offsetTop - 120;
-      const sectionHeight = section.offsetHeight;
-      if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-        currentId = section.getAttribute("id");
-      }
+    card.addEventListener("mousemove", (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+
+      const rotateX = ((y - centerY) / centerY) * -9;
+      const rotateY = ((x - centerX) / centerX) * 9;
+
+      card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(
+        2
+      )}deg) rotateY(${rotateY.toFixed(2)}deg) scale3d(1.02, 1.02, 1.02)`;
     });
 
-    navLinks.forEach((link) => {
-      link.classList.remove("active");
-      if (link.getAttribute("href") === `#${currentId}`) {
-        link.classList.add("active");
-      }
-    });
-  }, { passive: true });
-
-  // Close mobile menu when clicking nav link
-  navLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-      const menu = document.getElementById("nav-links");
-      const toggle = document.getElementById("mobile-toggle");
-      if (menu) menu.classList.remove("open");
-      if (toggle) toggle.setAttribute("aria-expanded", "false");
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)";
     });
   });
 }
 
-// Gentle Scroll Reveal using IntersectionObserver
-function setupScrollObserver() {
-  const sections = document.querySelectorAll(".section");
+// 4. Interactive Category Filter Buttons
+function initFilterBars() {
+  // Skills Filter
+  const skillBtns = document.querySelectorAll("#skills-filter-bar .filter-btn");
+  skillBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      skillBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      const category = btn.getAttribute("data-category");
+      renderSkills(category);
+    });
+  });
 
-  if (!("IntersectionObserver" in window)) {
-    sections.forEach((sec) => sec.classList.add("is-visible"));
-    return;
-  }
+  // Projects Filter
+  const projectBtns = document.querySelectorAll("#projects-filter-bar .filter-btn");
+  projectBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      projectBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      const filter = btn.getAttribute("data-filter");
+      renderProjects(filter);
+    });
+  });
+}
+
+// 5. Scroll Observer & Number Counter Trigger
+function initScrollObserver() {
+  const sections = document.querySelectorAll(".section");
+  let countersAnimated = false;
 
   const observer = new IntersectionObserver(
-    (entries, obs) => {
+    (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("is-visible");
-          obs.unobserve(entry.target);
+
+          // Trigger number counter animation when Achievements scrolls in
+          if (entry.target.id === "achievements" && !countersAnimated) {
+            countersAnimated = true;
+            animateNumbers();
+          }
         }
       });
     },
-    { rootMargin: "0px 0px -60px 0px", threshold: 0.08 }
+    { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
   );
 
-  sections.forEach((section) => {
-    section.classList.add("fade-in-section");
-    observer.observe(section);
+  sections.forEach((sec) => {
+    sec.classList.add("fade-in-section");
+    observer.observe(sec);
   });
 }
 
-// Back to Top Button
-function setupBackToTop() {
-  const backToTopBtn = document.getElementById("back-to-top");
-  if (!backToTopBtn) return;
+// Animated Stat Counters
+function animateNumbers() {
+  const numberElements = document.querySelectorAll(".achievement-number[data-target]");
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-      backToTopBtn.classList.add("visible");
-    } else {
-      backToTopBtn.classList.remove("visible");
+  numberElements.forEach((el) => {
+    const target = parseInt(el.getAttribute("data-target"), 10);
+    const suffix = el.getAttribute("data-suffix") || "";
+    if (isNaN(target)) return;
+
+    let start = 0;
+    const duration = 1800; // ms
+    const startTime = performance.now();
+
+    function step(now) {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // Ease out exponential
+      const ease = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+      const current = Math.floor(ease * target);
+
+      el.textContent = current.toLocaleString() + suffix;
+
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = target.toLocaleString() + suffix;
+      }
     }
-  }, { passive: true });
 
-  backToTopBtn.addEventListener("click", () => {
+    requestAnimationFrame(step);
+  });
+}
+
+// 6. Top Scroll Progress Bar & Navbar Active States
+function initScrollProgress() {
+  const progressBar = document.getElementById("scroll-progress");
+  const navbar = document.getElementById("navbar");
+  const navLinks = document.querySelectorAll(".nav-link");
+  const sections = document.querySelectorAll("section[id]");
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      const scrollHeight =
+        document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+
+      if (progressBar) progressBar.style.width = `${progress}%`;
+
+      if (navbar) {
+        if (scrollTop > 50) navbar.classList.add("scrolled");
+        else navbar.classList.remove("scrolled");
+      }
+
+      // Active Section Highlighting
+      let currentSection = "";
+      sections.forEach((sec) => {
+        const top = sec.offsetTop - 140;
+        const height = sec.offsetHeight;
+        if (scrollTop >= top && scrollTop < top + height) {
+          currentSection = sec.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${currentSection}`) {
+          link.classList.add("active");
+        }
+      });
+    },
+    { passive: true }
+  );
+}
+
+// 7. Back to Top Button
+function initBackToTop() {
+  const btn = document.getElementById("back-to-top");
+  if (!btn) return;
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (window.scrollY > 400) {
+        btn.classList.add("visible");
+      } else {
+        btn.classList.remove("visible");
+      }
+    },
+    { passive: true }
+  );
+
+  btn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
 
-// Mobile Menu Toggle
-function setupMobileMenu() {
+// 8. Mobile Menu Toggle
+function initMobileMenu() {
   const toggle = document.getElementById("mobile-toggle");
-  const navLinks = document.getElementById("nav-links");
-  if (!toggle || !navLinks) return;
+  const nav = document.getElementById("nav-links");
+  if (!toggle || !nav) return;
 
   toggle.addEventListener("click", () => {
-    const isOpen = navLinks.classList.toggle("open");
+    const isOpen = nav.classList.toggle("open");
+    toggle.classList.toggle("active", isOpen);
     toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  nav.querySelectorAll(".nav-link").forEach((link) => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("open");
+      toggle.classList.remove("active");
+      toggle.setAttribute("aria-expanded", "false");
+    });
   });
 }
 
-// One-Click Copy Email to Clipboard with Accessible Status Feedback
-function setupCopyEmail() {
-  const copyBtn = document.getElementById("copy-email-btn");
+// 9. Copy Email Address with Confetti Burst
+function initCopyEmail() {
+  const btn = document.getElementById("copy-email-btn");
   const statusEl = document.getElementById("copy-status");
-  if (!copyBtn) return;
+  if (!btn) return;
 
-  copyBtn.addEventListener("click", async () => {
+  btn.addEventListener("click", async () => {
     const email = portfolioData.personal.email;
     try {
       if (navigator.clipboard && navigator.clipboard.writeText) {
         await navigator.clipboard.writeText(email);
       } else {
-        // Fallback for older browsers
-        const tempInput = document.createElement("input");
-        tempInput.value = email;
-        document.body.appendChild(tempInput);
-        tempInput.select();
+        const temp = document.createElement("input");
+        temp.value = email;
+        document.body.appendChild(temp);
+        temp.select();
         document.execCommand("copy");
-        document.body.removeChild(tempInput);
+        document.body.removeChild(temp);
       }
 
       if (statusEl) {
         statusEl.textContent = `✓ Copied ${email} to clipboard!`;
-        statusEl.style.color = "var(--success)";
+        statusEl.style.color = "#34d399";
         setTimeout(() => {
           statusEl.textContent = "";
-        }, 3000);
+        }, 3200);
       }
-    } catch (err) {
+
+      // Trigger Confetti Celebration!
+      launchConfetti();
+    } catch (e) {
       if (statusEl) {
-        statusEl.textContent = `Could not copy. Please email: ${email}`;
-        statusEl.style.color = "var(--text-muted)";
+        statusEl.textContent = `Please email: ${email}`;
+        statusEl.style.color = "#a5b4fc";
       }
     }
   });
+}
+
+// Pure Vanilla JS Confetti Animation
+function launchConfetti() {
+  const canvas = document.getElementById("confetti-canvas");
+  if (!canvas) return;
+
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  const colors = ["#6366f1", "#06b6d4", "#a855f7", "#3b82f6", "#10b981", "#f59e0b"];
+  const pieces = [];
+
+  for (let i = 0; i < 90; i++) {
+    pieces.push({
+      x: canvas.width / 2,
+      y: canvas.height * 0.75,
+      w: Math.random() * 8 + 4,
+      h: Math.random() * 6 + 4,
+      vx: (Math.random() - 0.5) * 16,
+      vy: (Math.random() - 1) * 16 - 4,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      rotation: Math.random() * 360,
+      vRot: (Math.random() - 0.5) * 12,
+      gravity: 0.35,
+      alpha: 1
+    });
+  }
+
+  let animationFrame;
+  function render() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let aliveCount = 0;
+
+    pieces.forEach((p) => {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += p.gravity;
+      p.rotation += p.vRot;
+      p.alpha -= 0.009;
+
+      if (p.alpha > 0) {
+        aliveCount++;
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate((p.rotation * Math.PI) / 180);
+        ctx.globalAlpha = Math.max(p.alpha, 0);
+        ctx.fillStyle = p.color;
+        ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+        ctx.restore();
+      }
+    });
+
+    if (aliveCount > 0) {
+      animationFrame = requestAnimationFrame(render);
+    } else {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      cancelAnimationFrame(animationFrame);
+    }
+  }
+
+  render();
 }

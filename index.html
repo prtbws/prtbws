@@ -1,42 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Partha Biswas | Portfolio</title>
-  <meta name="description" content="Personal portfolio of Partha Biswas, an AI and Data Science undergraduate at IIIT Kurnool. Competitive programming, machine learning, and software development.">
-  <link rel="stylesheet" href="style.css">
+  <title>Partha Biswas | AI &amp; Data Science · Competitive Programmer · Quant Builder</title>
+  <meta name="description" content="Portfolio of Partha Biswas, AI & Data Science undergraduate at IIIT Kurnool. Competitive programming, machine learning, quantitative algorithmic trading, and software systems.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Scroll Progress Indicator -->
+  <!-- Top Scroll Progress Indicator -->
   <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
 
-  <!-- Navigation Bar -->
+  <!-- Interactive Background Canvas (Constellation & Floating Particles) -->
+  <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Ambient Cursor Spotlight Effect -->
+  <div id="cursor-spotlight" class="cursor-spotlight" aria-hidden="true"></div>
+
+  <!-- Ambient Glowing Radial Backdrops -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Sticky Glass Navigation Header -->
   <header class="site-header" id="navbar">
     <div class="container header-container">
-      <a href="#hero" class="brand">
-        <span class="brand-name">Partha Biswas</span>
-        <span class="brand-tag">IIIT Kurnool</span>
+      <a href="#hero" class="brand" aria-label="Partha Biswas Homepage">
+        <div class="brand-monogram">
+          <span>PB</span>
+        </div>
+        <div class="brand-info">
+          <span class="brand-name">Partha Biswas</span>
+          <span class="brand-subtitle">IIIT Kurnool · AI &amp; DS</span>
+        </div>
       </a>
 
-      <!-- Desktop Navigation -->
+      <!-- Desktop Navigation Links -->
       <nav class="nav-links" id="nav-links">
         <a href="#about" class="nav-link">About</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#achievements" class="nav-link">Achievements</a>
-        <a href="#timeline" class="nav-link">Education</a>
+        <a href="#timeline" class="nav-link">Journey</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
-      <!-- Mobile Menu Button -->
-      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
+      <!-- Action & Mobile Toggle -->
+      <div class="header-actions">
+        <a href="https://github.com/prtbws" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="GitHub Profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </a>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -44,44 +68,127 @@
     <!-- 1. Hero Section -->
     <section id="hero" class="hero">
       <div class="container hero-container">
+        <!-- Hero Text Content -->
         <div class="hero-content">
-          <div class="hero-badge" id="hero-badge">Undergraduate at IIIT Kurnool</div>
-          <h1 class="hero-title" id="hero-name">Partha Biswas</h1>
-          <p class="hero-role" id="hero-role">AI &amp; Data Science Undergraduate</p>
-          <p class="hero-intro" id="hero-intro">
-            I am an Artificial Intelligence and Data Science undergraduate at IIIT Kurnool with a strong interest in competitive programming, machine learning, Data Science, and practical software development.
-          </p>
-
-          <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          <div class="hero-badge animate-fade">
+            <span class="beacon-dot"></span>
+            <span id="hero-badge-text">Available for Internships &amp; Research</span>
           </div>
 
-          <div class="hero-socials" id="hero-socials">
+          <p class="hero-greeting animate-fade delay-1">HELLO WORLD, I'M</p>
+
+          <h1 class="hero-name animate-fade delay-2" id="hero-name">Partha Biswas</h1>
+
+          <div class="hero-role-wrapper animate-fade delay-3">
+            <span class="hero-role-prefix">I am a</span>
+            <span class="typing-text" id="typing-text"></span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-intro animate-fade delay-4" id="hero-intro">
+            Artificial Intelligence and Data Science undergraduate at IIITDM Kurnool. I engineer intelligent software systems, design quantitative stock screening algorithms, and tackle complex algorithmic challenges in competitive programming.
+          </p>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-stats-bar animate-fade delay-4">
+            <div class="hero-stat-pill">
+              <span class="stat-icon-dot cyan"></span>
+              <span>Codeforces <strong>1402 (Pupil)</strong></span>
+            </div>
+            <div class="hero-stat-pill">
+              <span class="stat-icon-dot violet"></span>
+              <span>LeetCode <strong>1750+ Peak</strong></span>
+            </div>
+            <div class="hero-stat-pill">
+              <span class="stat-icon-dot emerald"></span>
+              <span><strong>700+</strong> Problems Solved</span>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions animate-fade delay-5">
+            <a href="#projects" class="btn btn-primary btn-shimmer">
+              <span>Explore My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Connect With Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Verified Profiles List -->
+          <div class="hero-socials animate-fade delay-5" id="hero-socials">
             <!-- Rendered by script.js -->
           </div>
         </div>
 
-        <div class="hero-image-wrapper">
-          <img src="images/profile.jpg" alt="Partha Biswas" id="hero-avatar" class="hero-avatar" loading="eager">
+        <!-- Hero Avatar with Rotating Holographic Frame & 3D Tilt -->
+        <div class="hero-avatar-area animate-fade delay-3">
+          <div class="avatar-card-container" id="avatar-card">
+            <div class="avatar-glow-ring"></div>
+            <div class="avatar-rotating-border"></div>
+            <div class="avatar-inner">
+              <img src="images/profile.jpg" alt="Partha Biswas" id="hero-avatar" class="avatar-img" loading="eager">
+              <div class="avatar-overlay"></div>
+              <div class="avatar-badge-plate">
+                <div class="plate-info">
+                  <span class="plate-name">Partha Biswas</span>
+                  <span class="plate-handle">@prtbws</span>
+                </div>
+                <div class="plate-tag">IIITDM '29</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- Animated Scroll Down Indicator -->
+      <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+        <span class="scroll-text">SCROLL TO DISCOVER</span>
+      </a>
     </section>
 
     <!-- 2. About Me Section -->
     <section id="about" class="section">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">About Me</h2>
-          <p class="section-subtitle">Background, academic pursuits, and technical interests</p>
-        </div>
+        <div class="section-tag">// 01. PROFILE</div>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Bridging mathematical reasoning, high-performance systems, and data-driven intelligence.</p>
 
         <div class="about-grid">
-          <div class="about-text" id="about-text">
+          <div class="about-text-content glass-card" id="about-text">
             <!-- Rendered by script.js -->
+            <div class="about-cta-bar">
+              <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <span class="about-location-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>IIITDM Kurnool, India</span>
+              </span>
+            </div>
           </div>
 
-          <div class="about-cards" id="about-cards">
+          <div class="about-cards-column" id="about-cards">
             <!-- Rendered by script.js -->
           </div>
         </div>
@@ -91,9 +198,17 @@
     <!-- 3. Technical Skills Section -->
     <section id="skills" class="section section-alt">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Skills &amp; Technologies</h2>
-          <p class="section-subtitle">Core programming languages, computational libraries, and developer tools</p>
+        <div class="section-tag">// 02. COMPETENCIES</div>
+        <h2 class="section-title">Technical Skills &amp; Stack</h2>
+        <p class="section-subtitle">A taxonomy of verified languages, computational libraries, and engineering tools.</p>
+
+        <!-- Category Filters -->
+        <div class="filter-bar" id="skills-filter-bar">
+          <button class="filter-btn active" data-category="all">All Skills</button>
+          <button class="filter-btn" data-category="languages">Languages</button>
+          <button class="filter-btn" data-category="data_ml">Data Science &amp; AI</button>
+          <button class="filter-btn" data-category="systems">Systems &amp; CS</button>
+          <button class="filter-btn" data-category="tools">Tools &amp; Dev</button>
         </div>
 
         <div class="skills-grid" id="skills-grid">
@@ -102,12 +217,20 @@
       </div>
     </section>
 
-    <!-- 4. Projects Section -->
+    <!-- 4. Projects Showcase Section -->
     <section id="projects" class="section">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Featured Projects</h2>
-          <p class="section-subtitle">Practical software, algorithmic tooling, and engineering projects</p>
+        <div class="section-tag">// 03. PORTFOLIO</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Real engineered systems spanning algorithmic equity screening, triple-redundant IoT firmware, and memory management in C.</p>
+
+        <!-- Project Filter Buttons -->
+        <div class="filter-bar" id="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="Fintech &amp; Quant">Fintech &amp; Quant</button>
+          <button class="filter-btn" data-filter="IoT &amp; Embedded">IoT &amp; Embedded</button>
+          <button class="filter-btn" data-filter="Systems &amp; C++">Systems &amp; C++</button>
+          <button class="filter-btn" data-filter="AI &amp; ML">AI &amp; ML</button>
         </div>
 
         <div class="projects-grid" id="projects-grid">
@@ -119,28 +242,46 @@
     <!-- 5. Competitive Programming & Achievements Section -->
     <section id="achievements" class="section section-alt">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Competitive Programming &amp; Achievements</h2>
-          <p class="section-subtitle">Verified contest ratings, milestones, and problem-solving metrics</p>
-        </div>
+        <div class="section-tag">// 04. METRICS</div>
+        <h2 class="section-title">Competitive Programming</h2>
+        <p class="section-subtitle">Verified contest ratings, milestones, and problem-solving analytics across global programming ecosystems.</p>
 
         <div class="achievements-grid" id="achievements-grid">
-          <!-- Rendered by script.js -->
+          <!-- Rendered by script.js with Animated Counters -->
         </div>
 
-        <div class="unified-profile-note" id="unified-profile-note">
-          <!-- Rendered by script.js -->
+        <!-- Codolio Unified Profile Banner -->
+        <div class="unified-profile-card glass-card">
+          <div class="unified-content">
+            <div class="unified-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div>
+              <h3 class="unified-title">Consolidated Competitive Profile</h3>
+              <p class="unified-desc">All algorithmic tracking, contest ratings, and verification badges are permanently consolidated at Codolio.</p>
+            </div>
+          </div>
+          <a href="https://codolio.com/profile/prtbws" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <span>codolio.com/profile/prtbws</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- 6. Education & Experience Timeline -->
+    <!-- 6. Education & Journey Timeline -->
     <section id="timeline" class="section">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Education &amp; Experience</h2>
-          <p class="section-subtitle">Academic timeline, hackathon participation, and technical community work</p>
-        </div>
+        <div class="section-tag">// 05. MILESTONES</div>
+        <h2 class="section-title">Education &amp; Journey</h2>
+        <p class="section-subtitle">A chronological record of undergraduate coursework, hackathon achievements, and firmware development.</p>
 
         <div class="timeline" id="timeline-container">
           <!-- Rendered by script.js -->
@@ -151,26 +292,40 @@
     <!-- 7. Contact Section -->
     <section id="contact" class="section section-alt">
       <div class="container contact-container">
-        <div class="section-header text-center">
-          <h2 class="section-title">Get In Touch</h2>
-          <p class="section-subtitle">Feel free to reach out for collaborations, questions, or opportunities</p>
-        </div>
+        <div class="contact-card glass-card">
+          <div class="contact-badge">
+            <span class="beacon-dot"></span>
+            <span>GET IN TOUCH</span>
+          </div>
 
-        <div class="contact-card">
+          <h2 class="contact-title">
+            Have an interesting idea?<br>
+            <span class="text-gradient">Let's build it together.</span>
+          </h2>
+
           <p class="contact-message">
-            Have an interesting project idea or want to discuss machine learning, algorithmic trading, or competitive programming? My inbox is always open.
+            I am always open to exploring new engineering opportunities, machine learning research, algorithmic trading models, and software developer internships.
           </p>
 
           <div class="contact-actions">
-            <a href="mailto:prtbws@zohomail.in" id="contact-email-link" class="btn btn-primary">
-              Send Email
+            <a href="mailto:prtbws@zohomail.in" id="contact-email-link" class="btn btn-primary btn-shimmer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span id="contact-email-text">Send Email (prtbws@zohomail.in)</span>
             </a>
+
             <button type="button" id="copy-email-btn" class="btn btn-secondary">
-              Copy Email Address
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copy Email Address</span>
             </button>
           </div>
 
-          <p id="copy-status" class="copy-status" aria-live="polite"></p>
+          <div id="copy-status" class="copy-status" aria-live="polite"></div>
 
           <div class="contact-links" id="contact-links">
             <!-- Rendered by script.js -->
@@ -183,21 +338,37 @@
   <!-- 8. Footer -->
   <footer class="site-footer">
     <div class="container footer-container">
-      <p class="footer-copy">
-        &copy; <span id="current-year"></span> Partha Biswas. Built with HTML, CSS, and vanilla JavaScript.
-      </p>
+      <div class="footer-left">
+        <span class="footer-monogram">PB</span>
+        <div>
+          <span class="footer-name">Partha Biswas</span>
+          <p class="footer-tagline">B.Tech in Artificial Intelligence &amp; Data Science · IIITDM Kurnool</p>
+        </div>
+      </div>
+
       <div class="footer-links" id="footer-links">
         <!-- Rendered by script.js -->
       </div>
     </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year"></span> Partha Biswas. All rights reserved.</p>
+      <p class="footer-engine">Built with semantic HTML5, modern CSS3 &amp; vanilla JavaScript.</p>
+    </div>
   </footer>
 
-  <!-- Back to Top Button -->
+  <!-- Floating Back to Top Button -->
   <button id="back-to-top" class="back-to-top" aria-label="Back to top of page">
-    &uarr;
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
   </button>
 
-  <!-- Main JavaScript File -->
+  <!-- Confetti Canvas Overlay for Celebrations -->
+  <canvas id="confetti-canvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
